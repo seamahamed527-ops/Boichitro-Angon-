@@ -1,0 +1,111 @@
+import { ProductReview } from '../types';
+
+export const INITIAL_REVIEWS: ProductReview[] = [
+  // For ba-001 (Premium Black Panjabi)
+  {
+    id: 'rev-101',
+    productId: 'ba-001',
+    userName: 'আব্দুল হাকিম',
+    rating: 5,
+    date: '১ সেপ্টেম্বর ২০২৬',
+    comment: 'পাঞ্জাবির কাপড় এবং বুকের এমব্রয়ডারি কাজ চমৎকার! সাইজ একদম ঠিকঠাক ছিল। ঈদে পরে দারুণ প্রশংসা পেয়েছি।',
+    verifiedPurchase: true,
+    helpfulCount: 14,
+  },
+  {
+    id: 'rev-102',
+    productId: 'ba-001',
+    userName: 'মাহমুদুল হাসান',
+    rating: 5,
+    date: '২৮ আগস্ট ২০২৬',
+    comment: 'মিসরীয় সুতির ফিনিশিং অসাধারণ, পরলে খুব আরাম লাগে। ২ দিনের মধ্যে ডেলিভারি পেয়েছি। ১০০% রেকমেন্ডেড!',
+    verifiedPurchase: true,
+    helpfulCount: 9,
+  },
+  {
+    id: 'rev-103',
+    productId: 'ba-001',
+    userName: 'তানভীর আহমেদ',
+    rating: 4,
+    date: '২০ আগস্ট ২০২৬',
+    comment: 'কাপড়ের কোয়ালিটি অনেক প্রিমিয়াম। বোতামগুলোর ফিনিশিং আরেকটু নিখুঁত হতে পারত, তবে দাম অনুযায়ী সেরা।',
+    verifiedPurchase: true,
+    helpfulCount: 5,
+  },
+
+  // For ba-002 (Dhakai Jamdani Saree)
+  {
+    id: 'rev-201',
+    productId: 'ba-002',
+    userName: 'সুলতানা রাজিয়া',
+    rating: 5,
+    date: '৩ সেপ্টেম্বর ২০২৬',
+    comment: 'জামদানি শাড়িটির সুতা ও নকশার কাজ এতো মোলায়েম ও নিখুঁত যে দেখার মতোই! রঙ একদম ছবির মতোই উজ্জ্বল।',
+    verifiedPurchase: true,
+    helpfulCount: 18,
+  },
+  {
+    id: 'rev-202',
+    productId: 'ba-002',
+    userName: 'ফারিয়া মেহজাবিন',
+    rating: 5,
+    date: '২৫ আগস্ট ২০২৬',
+    comment: 'স্পেশাল বক্সে প্যাকেজিং করা ছিল, সাথে ফ্রি ব্লাউজ পিস কাপড়ও খুব ভালো। বৈচিত্র্য অঙ্গনকে অনেক ধন্যবাদ।',
+    verifiedPurchase: true,
+    helpfulCount: 8,
+  },
+
+  // For ba-003 (Hand-painted Cotton Kurti)
+  {
+    id: 'rev-301',
+    productId: 'ba-003',
+    userName: 'সাদিয়া আফরিন',
+    rating: 5,
+    date: '২ সেপ্টেম্বর ২০২৬',
+    comment: 'হ্যান্ডপেইন্টের কাজটা জীবন্ত! গরমের জন্য পিওর কটনের এমন আরামদায়ক কুর্তি সত্যিই সচরাচর পাওয়া যায় না।',
+    verifiedPurchase: true,
+    helpfulCount: 11,
+  },
+  {
+    id: 'rev-302',
+    productId: 'ba-003',
+    userName: 'নুসরাত জাহান',
+    rating: 4,
+    date: '২৪ আগস্ট ২০২৬',
+    comment: 'রং ধোয়ার পরেও এক ফোঁটাও ওঠেনি। সাইজ চার্ট দেখে অর্ডার করেছিলাম, একদম পারফেক্ট ফিট হয়েছে।',
+    verifiedPurchase: true,
+    helpfulCount: 6,
+  },
+
+  // For other products default reviews
+  {
+    id: 'rev-401',
+    productId: 'ba-004',
+    userName: 'মো: মোস্তাফিজুর রহমান',
+    rating: 5,
+    date: '৩০ আগস্ট ২০২৬',
+    comment: 'সিল্কের টেক্সচার ও মেটেরিয়াল কোয়ালিটি সত্যিই রাজকীয়। বিয়ের অনুষ্ঠানে পরার জন্য অতুলনীয়।',
+    verifiedPurchase: true,
+    helpfulCount: 7,
+  },
+  {
+    id: 'rev-501',
+    productId: 'ba-005',
+    userName: 'আফসানা চৌধুরী',
+    rating: 5,
+    date: '৩১ আগস্ট ২০২৬',
+    comment: 'ডিজাইন খুব সুন্দর। পরলে খুবই মার্জিত দেখায়। ডেলিভারি সার্ভিসও বেশ দ্রুত ছিল।',
+    verifiedPurchase: true,
+    helpfulCount: 12,
+  },
+  {
+    id: 'rev-601',
+    productId: 'ba-006',
+    userName: 'শাহিনুর আলম',
+    rating: 5,
+    date: '১ সেপ্টেম্বর ২০২৬',
+    comment: 'লিনেন কাপড়ের মান খুব ভালো। গরমে পরার জন্য আদর্শ ক্যাজুয়াল শার্ট। রঙের স্থায়িত্ব চমৎকার।',
+    verifiedPurchase: true,
+    helpfulCount: 4,
+  },
+];

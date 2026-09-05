@@ -1,0 +1,6 @@
+{
+  "name": "বৈচিত্র্য অঙ্গন - Boichitro Angon",
+  "description": "Modern mobile-first e-commerce web application for fashion and clothing brand Boichitro Angon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
